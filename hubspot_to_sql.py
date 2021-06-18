@@ -8,7 +8,7 @@ import numpy as np
 #%%
 " Part One - Create page one request and append dictionary to empty list "
 
-URL = #
+URL = #Confidential
 r = requests.get(URL)
 d = r.text
 Parsed = json.loads(d)
@@ -63,7 +63,7 @@ def create_connection():
     global cursor
 
     
-    connection_string = ##
+    connection_string = #Confidential
     
     cnxn = pyodbc.connect(connection_string)
     cursor = cnxn.cursor()
