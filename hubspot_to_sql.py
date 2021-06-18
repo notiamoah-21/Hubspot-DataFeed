@@ -8,8 +8,7 @@ import numpy as np
 #%%
 " Part One - Create page one request and append dictionary to empty list "
 
-URL = "https://api.hubapi.com/crm/v3/objects/companies?page=3&hapikey=d2889dbc-5136-4ef9-a4b2-4d3ac01628ac&archived=false&properties=domain,name,annualrevenue,city,about,type,description,country,industry,phone"
-
+URL = #
 r = requests.get(URL)
 d = r.text
 Parsed = json.loads(d)
@@ -64,8 +63,7 @@ def create_connection():
     global cursor
 
     
-    connection_string = 'DRIVER={ODBC Driver 17 for SQL Server};PORT=1433;SERVER=s2rplay.database.windows.net;PORT=1433;DATABASE=s2r.play.nana;UID=playadmin;PWD=uMQS4t78'
-
+    connection_string = ##
     
     cnxn = pyodbc.connect(connection_string)
     cursor = cnxn.cursor()
